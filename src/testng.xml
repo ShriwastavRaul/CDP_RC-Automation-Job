@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CDP Suite">
+<listeners>
+        <listener class-name="test.RetryListener"/>
+        <listener class-name="listeners.TestListener"/>
+  </listeners>
+     <test name="CDP_logInModule scripts">
+         <classes>
+             <class name="test.LoginModuleScript">
+             </class>
+         </classes>
+         
+    
+      
+      </test>
+     
+       <test name="CDP_DashBoardModuleScript">
+         <classes>
+             <class name="test.DashBoardModuleScript">
+             </class>
+         </classes>
+         
+     
+        
+      </test>
+       
+      <test name="CDP_chapterModuleScript">
+         <classes>
+             <class name="test.chapterModuleScript">
+             </class>
+         </classes>
+         
+     
+        
+      </test>
+     
+     
+     <test name="CDP_EditorModuleScript">
+         <classes>
+             <class name="test.EditorModuleScript">
+             </class>
+         </classes>
+         
+     
+        
+      </test>
+     
+       <test name="CDP_EditorModuleScriptForEditor">
+         <classes>
+             <class name="test.EditorModuleScriptForEditor">
+             </class>
+         </classes>
+         
+     
+        
+      </test>
+      <test name="CDP_editorModuleScriptForReviewer">
+         <classes>
+             <class name="test.editorModuleScriptForReviewer">
+             </class>
+         </classes>
+         
+     
+        
+      </test>
+      
+      <test name="CDP_editorModuleforAdminScripts">
+       <classes>
+             <class name="test.EditorModuleForAdmin">
+             </class>
+         </classes>
+        </test>
+       
+</suite>
